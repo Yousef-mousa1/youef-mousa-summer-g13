@@ -1,0 +1,447 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+.navbar {
+height: 100%;
+text-align: center;
+  
+}
+.logo {
+  float: left;
+height: 100%;
+}
+.photo-logo{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 20px;
+}
+.text-logo {
+    color: rgb(35, 29, 29);
+    font-size: 16px;
+    margin: 7% 0 6% 0;
+    float: right;
+}
+.nav-links {
+    float: right;
+    margin: 1% 17% 0 0;
+    height: 100%;
+
+}
+.inlineblock {
+    display: inline-block;
+ padding-right: 40px;
+}
+.icons a{
+    color: black;
+    font-size: 16px;
+    margin-top:1% ;
+    padding-right: 4%;
+    float: right;
+height: 100%;
+  
+}
+.home{
+background-image: url(../photo/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+height: 700px;
+background-size: cover;
+position: relative;
+}
+.new{
+    position: absolute;
+    right: 3%;
+    bottom: 2%;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(255, 243, 227);
+}
+.new-content{
+    padding:5%; 
+}
+.new-content h3 ,p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom:2%;
+}
+.new-content h2{
+  font-size: 36px;
+  font-weight: bold;
+   padding-bottom: 2%;
+    font-family: sans-serif;
+    color: rgb(184, 142, 46);
+}
+.new-content button{
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(184, 142, 46);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button{
+    margin-top: 1%;
+    padding-left: 30%;
+}
+.browse{
+   padding:5%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.browse-content h2,p{
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.browse-content h2{
+    font-size: 36px;
+}
+.card {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 10px;
+}
+#product{
+height: 100%;
+    background-color: rgb(255, 255, 255);
+   text-align: center;
+}
+.txt{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2% 0;
+}
+.product-cards{
+    width: 22%;
+    height: 450px;
+    display: inline-block;
+    margin: 1% 1%;
+    background-color:rgb(244, 245, 247);
+}
+.xx{
+    width: 100%;
+    position: relative;
+}
+.dis{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(233, 112, 113);
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.input{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    width: 40%;
+    height: 8%;
+    background-color: rgba(255, 255, 255, 0.319);
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    display: none;
+}
+.dis-new{position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(46, 193, 172);
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.png{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    padding: 2%;
+    text-align: left;
+}
+.text h2{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0); 
+}
+.text h5{
+    color: rgb(176, 176, 176);
+    font-size: 16px;
+    margin:1% 0;
+}
+.old-price{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.old-price h3{
+    text-decoration: line-through;
+    color: rgb(176, 176, 176);
+    font-size: 22px;
+}
+#product button{
+    width: 10%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(184, 142, 46);
+    font-size: 16px;
+    font-weight: bold;
+    border-color: rgb(184, 142, 46);
+    margin-bottom: 3%;
+}
+.inner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: rgb(252, 248, 244) ;
+}
+.inner-content {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    text-align: center;
+}
+.inner-img {
+    width: 25%;
+    height: 80%;
+    background-image: url(../photo/Rectangle\ 24.png);
+    position: absolute;
+    top: 10%;
+    right: 33%;
+}
+.bedroom {
+    width: 48%;
+    height: 28%;
+    background-color: rgba(255, 255, 255, 0.472);
+    margin: 90% 0 2% 6%;
+    text-align: center;
+}
+.bedroom h5{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 28% 0% 3% 0%;
+}
+.arrow {
+    width: 45px;
+    height: 35px;
+    background-color: rgb(184, 142, 46);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 2%;
+    left: 54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 4%;
+    color: rgb(0, 0, 0);
+}
+.inner-content p {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10%;
+    color: rgb(176, 176, 176);
+}
+.inner-content button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(184, 142, 46);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.inner-img2 {
+    width: 25%;
+    height: 70%;
+    background-image: url(../photo/Rectangle\ 25.png);
+    position: absolute;
+    top: 10%;
+    right:6%;
+}
+.arrow2 {
+    position: absolute;
+    bottom: 30%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow2 i{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 142, 46);
+    width: 30px;
+    height: 30px;
+   
+    border-radius: 50%;
+}
+.share-section{
+    width: 100%;
+    height:100%;
+    text-align: center;
+}
+.share-section h2  {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 2% ;
+}
+.share-section h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2% 0;
+    color: #393737;
+    }
+#footer {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    }
+.footer-content {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2% 0 0 5%;
+    float: left;
+    }
+.footer-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 25%;
+    color: #000000;
+}
+.footer-content p {
+    font-size: 16px;
+    color: rgb(176, 176, 176);
+}
+.footer-links {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2% 8%;
+    color: #000000;
+    }
+.footer-links h3 {
+    color: rgb(171, 166, 166);
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom:80% ;
+}
+.footer-links li{
+    padding-bottom: 70%;
+
+}
+.help {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2% 5%;
+    }
+.help h3 {
+    color: rgb(171, 166, 166);
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 80%;
+}
+.help li {
+    padding-bottom: 70%;
+}
+.subscribe {
+    width: 35%;
+    height: 100%;
+    vertical-align: top;
+    padding: 2% 0 0 5%;
+    float: right;
+}
+.subscribe h3 {
+  padding: 0% 20% 15%0;
+    color: #9f9b9b;
+}
+.subscribe input {
+    border: none;
+    border-bottom: 2px solid black;
+
+    font-size: 16px;
+}
+.subscribe button {
+    
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    font-style: oblique;
+text-transform: uppercase;
+   
+}
+hr {
+    width: 80%;
+    height: 1px;
+  margin: auto;
+}
+.footer-text{
+color: #919191;
+margin: 1% 10%;
+}
+.nav-links a:hover{
+    color: rgb(67, 104, 143);
+}
+.icons a:hover {
+    color: rgb(67, 104, 143);
+}
+.button button:hover {
+    background-color: white;
+    color:  rgb(184, 142, 46);
+}
+#product button:hover {
+    background-color: rgb(184, 142, 46);
+    color: white;
+}
+.btn2:hover {
+    background-color: white;
+    color: rgb(184, 142, 46);
+}
+#footer a:hover {
+    color: rgb(67, 104, 143);
+}
+.xx:hover .input {
+    display: flex;
+}
+.input:hover{
+    color: #bcb2b2;
+}
