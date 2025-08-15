@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>merto</title>
 </head>
@@ -88,18 +90,14 @@
                     </a>
                    </li>
                 </ul>
-              </li>
-                   
+             </li>    
           </div>
           <div class="col-auto fw-bold">
             <i class="fa-regular fa-user"></i> Account
           </div>
-          <div class="col-auto icon-badge">
-            <i class="fa-regular fa-heart"></i>
-          </div>
-          <div class="col-auto icon-badge">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </div>
+            <i class="fa-regular fa-heart fa "></i>
+            <i class="fa-solid fa-cart-shopping fa"></i>
+            <i class="fa-solid fa-bars fa"></i>
         </div>
       </div>
       <div class="container-fluid py-2 menu-bar">
@@ -108,7 +106,7 @@
           <div class="col-auto fw-bold">
             <i class="fa-solid fa-bars"></i> SHOP BY CATEGORIES
           </div>
-          <div class="col">
+          <div class="col a-color">
             <ul class="nav">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
@@ -116,17 +114,17 @@
                 </a>
                 <ul class="dropdown-menu mega-menu">
                   <div class="mega-menu-top">
-                  <li><a class="dropdown-item" href="#">
+                  <li><a class="dropdown-item" href="product.html">
                     <img src="photo/imgi_6_mega-home-1.jpg" alt=""></a></li>
-                  <li><a class="dropdown-item " href="#">
+                  <li><a class="dropdown-item " href="shop.html">
                     <img src="photo/imgi_10_mega-home-6.jpg" alt=""></a></li>
                   <li><a class="dropdown-item" href="#">
                     <img src="photo/imgi_11_mega-home-4.jpg" alt=""></a></li>
-                    <li><a class="dropdown-item" href="#">
+                    <li><a class="dropdown-item" href="shop.html">
                       <img src="photo/imgi_9_mega-home-3.jpg" alt=""></a></li>
                   </div>
                   <div class="mega-menu-end">
-                      <li><a class="dropdown-item" href="#">
+                      <li><a class="dropdown-item" href="contact-us.html">
                         <img src="photo/imgi_7_mega-home-2.jpg" alt=""></a></li>
                         <li><a class="dropdown-item" href="#">
                           <img src="photo/imgi_8_mega-home-5.jpg" alt=""></a></li>
@@ -479,35 +477,35 @@
 </header>
 <main>
 <div class="row">
-  <div id="slide" class=" carousel slide col-8 px-0" data-ride="carous">
+  <div id="slide" class=" carousel slide col-12 col-md-8 px-0" data-ride="carous">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class=" carousel-inner">
-      <div class="carousel-item active slider" data-bs-interval="10">
+      <div class="carousel-item active slider " data-bs-interval="10">
         <img src="photo/imgi_91_slide1-demo1.jpg" alt="png">
-        <div class="tx">
+        <div class="tx ms-5">
          <h4>Lorem ipsum dolor <br>sit amet lorem</h4>
-         <h5>Lorem, ipsum dolor.</h5>
-          <button class="btn btn-light">shop now</button>
+        <h5>Lorem, ipsum dolor.</h5>
+          <button class="btn bg-hover btn-light">shop now</button>
         </div>
       </div>
       <div class="carousel-item x" data-bs-interval="5">
         <img src="photo/imgi_93_slide3-demo1.png" alt="png">
-        <div class="tx">
+        <div class="tx ms-5">
           <h4>Lorem ipsum dolor <br>sit amet lorem</h4>
            <h5>Lorem, shop now.</h5>
-           <button class="btn btn-light">shop now</button>
+           <button class="btn bg-hover btn-light">shop now</button>
          </div>
       </div>
       <div class="carousel-item y" data-bs-interval="2">
-       <img src="photo/imgi_92_slide2-demo1.jpg" alt="png">
-       <div class="tx">
+       <img src="photo/imgi_92_slide2-demo1-removebg-preview.png" alt="png">
+       <div class="tx ms-5">
         <h4>LM black friday <br>sit amet lorem</h4>
-         <h5>Lorem, ipsum dolor.</h5>
-         <button class="btn btn-light">shop now</button>
+        <h5>Lorem, ipsum dolor.</h5>
+         <button class="btn bg-hover btn-light">shop now</button>
        </div>
       </div>
     </div>
@@ -520,8 +518,8 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="-right col-4 px-0">
-    <div class="img-2">
+  <div class="-right col-12 col-md-4 px-0">
+    <div class="img-2 bg">
     <img src="photo/imgi_137_banner1-mobile-demo1-300x185.jpg" alt="png">
     <div class="text">
       <h3>BLACK FRIDAY
@@ -529,11 +527,12 @@
         <h2>Big Sale<br>Eyesshadow</h2>
       </h3>
       <h5>Over +100 items</h5>
-      <button class="btn btn-light">shop now</button>
+      <button class="btn btn-outline-dark">shop now</button>
     </div>
     </div>
-    <div class="img-3">
-      <img src="photo/imgi_139_banner2-mobile-demo1-300x185.jpg" alt="png">
+
+    <div class="img-3 bg col-12">
+      <img src="photo/imgi_139_banner2-mobile-demo1-300x185-removebg-preview.png" alt="png">
       <div class="del">
         %29
       </div>
@@ -542,24 +541,24 @@
           <br>
           <h2>Big Sale<br>Eyesshadow</h2>
         </h3>
-        <h5>Over +100 items</h5>
-        <button class="btn btn-light">shop now</button>
+       <h5>Over +100 items</h5>
+        <button class="btn btn-outline-dark">shop now</button>
       </div>
     </div>
-  </div>
-</div>
-<div class="features">
-  <div class="feature">
-    <a href="#">
-    <i class="fas fa-shipping-fast"></i>
-    </a>
-    <div>
-      <h4>Fast, Free Shipping</h4>
-     <p>On order over $50</p>
     </div>
   </div>
+<div class="features row g-3 p-4">
+ <div class="feature col-6 col-md-3">
+    <a href="#">
+    <i class="fas fa-truck"></i>
+    </a>
+    <div>
+      <h4>Free Shipping</h4>
+      <p>On order over $50</p>
+    </div>
 
-  <div class="feature">
+    </div>
+  <div class="feature col-6 col-md-3">
     <a href="#">
     <i class="fas fa-clock"></i>
     </a>
@@ -568,8 +567,7 @@
       <p>Free- spend over $99</p>
     </div>
   </div>
-
-  <div class="feature">
+  <div class="feature col-6 col-md-3">
     <a href="#">
     <i class="fas fa-tags"></i>
     </a>
@@ -579,7 +577,7 @@
     </div>
   </div>
 
-  <div class="feature">
+  <div class="feature col-6 col-md-3">
     <a href="#">
     <i class="fas fa-thumbs-up"></i>
     </a>
@@ -589,37 +587,62 @@
     </div>
   </div>
 </div>
-<div class="d-flex run container m-0 w-100">
+</div>
+<div class=" container owl-carousel m-3 w-100">
   <div class="png-row">
-    <img src="photo/imgi_23_cat-2.jpg" alt="png">
-    <h4>Home&Decor</h4>
+   <img src="photo/imgi_23_cat-2.jpg" alt="png">
+   <div class="layout"></div>
+  <a href="shop.html"><i class="fa-solid fa-arrow-right"></i>
+  </a>
+   <h4>Home&Decor</h4>
   </div>
   <div class="png-row">
     <img src="photo/imgi_24_cosmetic-cat-7.jpg" alt="png">
+    <div class="layout"></div>
+    <a href="shop.html"><i class="fa-solid fa-arrow-right"></i>
+    </a>
     <h4>Makeup</h4>
   </div>
   <div class="png-row">
     <img src="photo/imgi_27_cat-6.jpg" alt="png">
+    <div class="layout"></div>
+    <a href="shop.html"><i class="fa-solid fa-arrow-right"></i>
+    </a>
     <h4>Fashion</h4>
   </div>
   <div class="png-row">
     <img src="photo/imgi_28_cat-7.jpg" alt="png">
+    <div class="layout"></div>
+    <a href="shop.html"><i class="fa-solid fa-arrow-right"></i>
+    </a>
     <h4>Headphone</h4>
   </div>
   <div class="png-row">
     <img src="photo/imgi_29_cat-8.jpg" alt="png">
+    <div class="layout"></div>
+    <a href="shop.html"><i class="fa-solid fa-arrow-right"></i>
+    </a>
     <h4>HandBag</h4>
   </div>
   <div class="png-row">
     <img src="photo/imgi_30_cat-1.jpg" alt="png">
+    <div class="layout"></div>
+    <a href="shop.html"><i class="fa-solid fa-arrow-right"></i>
+    </a>
     <h4>smartphone</h4>
   </div>
   <div class="png-row">
     <img src="photo/imgi_26_cat-5.jpg" alt="png">
+    <div class="layout"></div>
+    <a href="shop.html"><i class="fa-solid fa-arrow-right"></i>
+    </a>
     <h4>Lap</h4>
   </div>
   <div class="png-row">
     <img src="photo/imgi_25_cat-4.jpg" alt="png">
+    <div class="layout"></div>
+    <a href="shop.html"><i class="fa-solid fa-arrow-right"></i>
+    </a>
     <h4>Autopart</h4>
   </div>
 </div>
@@ -628,27 +651,26 @@
     <span>Super discount for your <strong> first purchase </strong> <a href="#">COUPON25</a>Use discount code in the checkout!</span>
   </div>
   <div class="timer p-4">
-  <div class="d-flex justify-content-between align-items-center">
-    <h4 class="fw-bold">Flash Deals</h4>
-    <div class="d-flex align-items-center time">
-      <span class="text-secondary me-2">Ends in</span>
-      <div class="timer-circle">18</div>
-      <span class="mx-1">:</span>
-      <div class="timer-circle">10</div>
-      <span class="mx-1">:</span>
-      <div class="timer-circle">48</div>
+    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center text-center">
+      <h4 class="fw-bold mb-2 mb-md-0">Flash Deals</h4>
+      <div class="d-flex align-items-center justify-content-center time">
+        <span class="text-secondary me-2">Ends in</span>
+        <div class="timer-circle">18</div>
+        <span class="mx-1">:</span>
+        <div class="timer-circle">10</div>
+        <span class="mx-1">:</span>
+        <div class="timer-circle">48</div>
+      </div>
+      <a href="shop.html" class="text-dark underline under-line">See All Products</a>
     </div>
-    <div class="divider"></div>
-    <a href="#" class="text-dark text-decoration-underline">See All Products</a>
   </div>
-  </div>
-  <div class="product d-flex">
-    <div class="card-product">
+  <div class="product d-flex owl-carousel container">
+  <div class="card-product">
      <div class="content-pro">
   <img src="photo/imgi_217_electronic-30-6.jpg" alt="png">
   <div class="txt-content">
   <h4>
-    Lorem ipsum dolor <br>
+   Lorem ipsum dolor <br>
     sit amet consectetur.
   </h4>
   <h5>$380 <span>$800</span></h5>
@@ -664,6 +686,48 @@
   </div>
   </div>
  </div>
+ <div class="card-product">
+  <div class="content-pro">
+<img src="photo/imgi_217_electronic-30-6.jpg" alt="png">
+<div class="txt-content">
+<h4>
+ Lorem ipsum dolor <br>
+ sit amet consectetur.
+</h4>
+<h5>$380 <span>$800</span></h5>
+</div>
+<div class="icons-pro">
+ <i class="fa-regular fa-heart"></i>
+ <i class="fa-solid fa-arrow-right-arrow-left"></i>
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <i class="fa-solid fa-cart-shopping"></i>
+</div>
+<div class="Discount ">
+ 10%
+</div>
+</div>
+</div>
+<div class="card-product">
+  <div class="content-pro">
+<img src="photo/imgi_217_electronic-30-6.jpg" alt="png">
+<div class="txt-content">
+<h4>
+ Lorem ipsum dolor <br>
+ sit amet consectetur.
+</h4>
+<h5>$380 <span>$800</span></h5>
+</div>
+<div class="icons-pro">
+ <i class="fa-regular fa-heart"></i>
+ <i class="fa-solid fa-arrow-right-arrow-left"></i>
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <i class="fa-solid fa-cart-shopping"></i>
+</div>
+<div class="Discount ">
+ 10%
+</div>
+</div>
+</div>
  <div class="card-product">
   <div class="content-pro">
 <img src="photo/imgi_224_electronic-14-2.jpg" alt="png">
@@ -716,7 +780,7 @@
 </h4>
 <h5>$380 <span>$800</span></h5>
 </div>
-<div class="icons">
+<div class="icons-pro">
  <i class="fa-regular fa-heart"></i>
  <i class="fa-solid fa-arrow-right-arrow-left"></i>
  <i class="fa-solid fa-magnifying-glass"></i>
@@ -737,7 +801,7 @@
 </h4>
 <h5>$380 <span>$800</span></h5>
 </div>
-<div class="icons">
+<div class="icons-pro">
  <i class="fa-regular fa-heart"></i>
  <i class="fa-solid fa-arrow-right-arrow-left"></i>
  <i class="fa-solid fa-magnifying-glass"></i>
@@ -749,15 +813,15 @@
 </div>
 </div>
   </div>
-  <div class="mid d-flex">
-    <div class="card-first">
+  <div class="mid d-flex flex-column flex-md-row">
+    <div class="card-first bg">
       <img src="photo/imgi_215_banner3-mobile-demo1-300x262.jpg" alt="png">
       <div class="content-first">
         <h3>SALE 10% OFF <br> TIRES MICHELIN</h3>
       </div>
     </div>
-  
-    <div class="card-mid">
+ 
+    <div class="card-mid bg">
       <img src="photo/imgi_221_banner4-mobile-demo1-300x262.jpg" alt="png">
       <div class="content-mid">
         <h6>NEW COLLECTION</h6>
@@ -766,7 +830,7 @@
       </div>
     </div>
   
-    <div class="card-end">
+    <div class="card-end bg">
       <img src="photo/imgi_223_banner5-mobile-demo1-300x262.jpg" alt="Beauty">
       <div class="content-end">
         <h4>Steals under $25</h4>
@@ -788,34 +852,472 @@
     </div>
     </div>
     <div class="container py-4">
-      <div class="row">
-          <div class="cardpro p-3">
-            <span>HOT</span>
-            <img src="photo/imgi_271_fashion-5.jpg" alt="png">
+      <div class="row ">
+          <div class="card-pro col-6 col-md-4 p-3">
+           <span>HOT</span>
+           <img src="photo/imgi_271_fashion-5.jpg" alt="png">
             <div class="card-body">
-              <h5 class="card-title">Nike Air Max Unisex SYSTM</h5>
-              <p class="fw-bold">$148</p>
+              <p class="card-title">Nike Air Max Unisex SYSTM</p>
+             <p class="fw-bold">$148</p>
               <p class="star">
                 <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
               </p>
+             </div>
               <div class="actions">
-                <button class="btn btn-dark w-100">+ ADD TO CART</button>
-                <button class="btn btn-light">🔍</button>
-                <button class="btn btn-light">❤</button>
+                <button class="btn btn-outline-dark">+ ADD TO CART</button>
+                <button class="btn btn-light"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                <button class="btn btn-light"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="btn btn-light"><i class="fa-solid fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="card-pro col-6 col-md-4 p-3">
+              <img src="photo/imgi_278_fashion-9.jpg" alt="png">
+              <div class="card-body">
+               <p>
+                  100% UV Protected Sunglasses For Men</p>
+                <p class="fw-bold">$123</p>
+                <p class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                </p>
+               </div>
+              </div>
+              <div class="card-pro col-6 col-md-4 p-3">
+                <img src="photo/imgi_285_fashion-6.jpg" alt="png">
+                <div class="card-body">
+                  <p class="card-title">LV Women Leather Accent Denim Mini Skirt</p>
+                  <p class="fw-bold">$1,390</p>
+                  <p class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </p>
+                 </div>
+                </div>
+                <div class="card-pro col-6 col-md-4 p-3">
+                  <img src="photo/imgi_292_fashion-16.jpg" alt="png">
+                  <div class="card-body">
+                    <p class="card-title">A Different Christmas Knit Holiday Sweater</p>
+                    <p class="fw-bold">$50
+                      –
+                      $65</p>
+                    <p class="star">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </p>
+                   </div>
+                  </div>
+                  <div class="card-pro col-6 col-md-4 p-3">
+                    <img src="photo/imgi_299_fashion-1.jpg" alt="png">
+                    <div class="card-body">
+                      <p class="card-title">Winter New Jacket Loose Retro American Campus</p>
+                      <p class="fw-bold">$160
+                      </p>
+                      <p class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </p>
+                     </div>
+                    </div>
+                    <div class="card-pro col-6 col-md-4 p-3">
+                      <img src="photo/imgi_306_fashion-3.jpg" alt="png">
+                      <div class="card-body">
+                        <p class="card-title">
+                          Winter Hats with Top Ball Custom Design</p>
+                        <p class="fw-bold">$17</p>
+                        <p class="star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </p>
+                       </div>
+                      </div>
+          </div>
+       </div>
+       <div class="hoodie">
+       <img src="photo/imgi_108_slide-hoodie-2.png" id="card-img" alt="png"> 
+      <div class="text-hod text-muted">Hoodie</div>
+       <h6>30%</h6>
+       <div class="card-hod container">
+    <div class="hod-txt">
+        <span>Athletics Embroidered Relaxed Hoodie</span>
+
+            <p><i class="fa-solid fa-check"></i> 64% cotton, 36% polyester</p>
+            <p> <i class="fa-solid fa-check"></i> Do not dry clean</p>
+            <p> <i class="fa-solid fa-check"></i> Machine wash</p>
+    <hr>
+        <div>
+            <span class="price">$89</span>
+            <span class="old-price">$120</span>
+        </div>
+    </div>
+
+        <div class="hod-boxes">
+            <div class="hod-box">
+              <a>
+                <img src="photo/imgi_109_slide-hoodie-4.png " onclick="changeImg(this)" alt="png"> 
+              </a>
+             </div>
+            <div class="hod-box">
+              <a><img src="photo/imgi_108_slide-hoodie-2.png"onclick="changeImg(this)" alt="png"></a>
+              </div>
+            <div class="hod-box">
+              <a>
+               <img src="photo/imgi_106_slide-hoodie-1.png"onclick="changeImg(this)" alt="png">
+              </a>
+            </div>
+            <div class="hod-box">
+              <a><img src="photo/imgi_108_slide-hoodie-3.png"onclick="changeImg(this)" alt="png"></a>
+             </div>
+        
+        </div>
+        <a href="shop.html">
+          <button type="button" class="btn btn-outline-dark">Buy Now</button>
+        </a>
+          
+    </div>
+    
+       </div> 
+       <div class="product d-flex owl-carousel container">
+        <div class="card-product">
+           <div class="content-pro">
+        <img src="photo/imgi_217_electronic-30-6.jpg" alt="png">
+        <div class="txt-content">
+        <h4>
+          Lorem ipsum dolor <br>
+          sit amet consectetur.
+        </h4>
+        <h5>$380 <span>$800</span></h5>
+        </div>
+        <div class="icons-pro">
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="Discount ">
+          10%
+        </div>
+        </div>
+       </div>
+       <div class="card-product">
+        <div class="content-pro">
+      <img src="photo/imgi_217_electronic-30-6.jpg" alt="png">
+      <div class="txt-content">
+      <h4>
+       Lorem ipsum dolor <br>
+       sit amet consectetur.
+      </h4>
+      <h5>$380 <span>$800</span></h5>
+      </div>
+      <div class="icons-pro">
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-solid fa-arrow-right-arrow-left"></i>
+       <i class="fa-solid fa-magnifying-glass"></i>
+       <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <div class="Discount ">
+       10%
+      </div>
+      </div>
+      </div>
+      <div class="card-product">
+        <div class="content-pro">
+      <img src="photo/imgi_217_electronic-30-6.jpg" alt="png">
+      <div class="txt-content">
+      <h4>
+       Lorem ipsum dolor <br>
+       sit amet consectetur.
+      </h4>
+      <h5>$380 <span>$800</span></h5>
+      </div>
+      <div class="icons-pro">
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-solid fa-arrow-right-arrow-left"></i>
+       <i class="fa-solid fa-magnifying-glass"></i>
+       <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <div class="Discount ">
+       10%
+      </div>
+      </div>
+      </div>
+       <div class="card-product">
+        <div class="content-pro">
+      <img src="photo/imgi_224_electronic-14-2.jpg" alt="png">
+      <div class="txt-content">
+      <h4>
+       Lorem ipsum dolor <br>
+       sit amet consectetur.
+      </h4>
+      <h5>$380 <span>$800</span></h5>
+      </div>
+      <div class="icons-pro">
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-solid fa-arrow-right-arrow-left"></i>
+       <i class="fa-solid fa-magnifying-glass"></i>
+       <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <div class="Discount">
+       10%
+      </div>
+      </div>
+      </div>
+      <div class="card-product">
+        <div class="content-pro">
+      <img src="photo/imgi_232_automotive-11.jpg" alt="png">
+      <div class="txt-content">
+      <h4>
+       Lorem ipsum dolor <br>
+       sit amet consectetur.
+      </h4>
+      <h5>$380 <span>$800</span></h5>
+      </div>
+      <div class="icons-pro">
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-solid fa-arrow-right-arrow-left"></i>
+       <i class="fa-solid fa-magnifying-glass"></i>
+       <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <div class="Discount">
+       10%
+      </div>
+      </div>
+      </div>
+      <div class="card-product">
+        <div class="content-pro">
+      <img src="photo/imgi_252_furniture-6.jpg" alt="png">
+      <div class="txt-content">
+      <h4>
+       Lorem ipsum dolor <br>
+       sit amet consectetur.
+      </h4>
+      <h5>$380 <span>$800</span></h5>
+      </div>
+      <div class="icons-pro">
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-solid fa-arrow-right-arrow-left"></i>
+       <i class="fa-solid fa-magnifying-glass"></i>
+       <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <div class="Discount ">
+       10%
+      </div>
+      </div>
+      </div>
+      <div class="card-product">
+        <div class="content-pro">
+      <img src="photo/imgi_188_cosmetics-33.jpg" alt="png">
+      <div class="txt-content">
+      <h4>
+       Lorem ipsum dolor <br>
+       sit amet consectetur.
+      </h4>
+      <h5>$380 <span>$800</span></h5>
+      </div>
+      <div class="icons-pro">
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-solid fa-arrow-right-arrow-left"></i>
+       <i class="fa-solid fa-magnifying-glass"></i>
+       <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <div class="Discount ">
+       10%
+      </div>
+      </div>
+      </div>
+        </div>
+        <div class="Blog mt-5 mb-5 container">
+          <h2 class="mb-5">From Our Blog</h2>
+          <div id="blog-carousel" class="blog-wrapper">
+            <div class="B-card bg">
+              <img src="photo/imgi_361_blog-1-768x544.jpg" alt="png">
+              <div class="article-card">
+                <div>
+                  <span class="category">BEAUTY & FASHION</span>
+                  <span class="author">— By <strong>Myoui Mina</strong></span>
+                </div>
+                <div class="title">Weekday Outfit Inspiration for All Occasions</div>
+                <div class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Donec porta et nisi at sodales.
+                </div>
+                <button type="button" class="btn btn-outline-dark">READ MORE</button>
+              </div>
+            </div>
+        
+            <div class="B-card bg">
+              <img src="photo/imgi_60_blog-2.jpg" alt="png">
+              <div class="article-card">
+                <div>
+                  <span class="category">BEAUTY & FASHION</span>
+                  <span class="author">— By <strong>Myoui Mina</strong></span>
+                </div>
+                <div class="title">Weekday Outfit Inspiration for All Occasions</div>
+                <div class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Donec porta et nisi at sodales.
+                </div>
+                <button type="button" class="btn btn-outline-dark">READ MORE</button>
+              </div>
+            </div>
+        
+            <div class="B-card bg">
+              <img src="photo/imgi_61_blog-3.jpg" alt="png">
+              <div class="article-card">
+                <div>
+                  <span class="category">BEAUTY & FASHION</span>
+                  <span class="author">— By <strong>Myoui Mina</strong></span>
+                </div>
+                <div class="title">Weekday Outfit Inspiration for All Occasions</div>
+                <div class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Donec porta et nisi at sodales.
+                </div>
+                <button type="button" class="btn btn-outline-dark">READ MORE</button>
               </div>
             </div>
           </div>
         </div>
-  
-    
-      </div>
+        
+      <div class="search-container">
+        <h3 class="fw-bold">Looking for something else?</h3>
+        <div class="search-box shadow-sm">
+            <input type="text" class="search-input" placeholder="Search for products...">
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="search-links d-flex flex-wrap justify-content-center gap-3 mt-3 text-dark ">
+            <a href="#">smartphone</a> <span>|</span>
+            <a href="#">tablet</a> <span>|</span>
+            <a href="#">controller</a> <span>|</span>
+            <a href="#">furniture</a> <span>|</span>
+            <a href="#">laptop</a> <span>|</span>
+            <a href="#">playstation</a> <span>|</span>
+            
+            <a href="#">womens fashion</a> <span>|</span>
+            <a href="#">home & decor</a> <span>|</span>
+            <a href="#">camera</a>
+        </div>
     </div>
 </main>
+<footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-3 text-secondary col-md-6">
+        <div class="mb-3 footer-logo">
+          <img src="photo/logo.png" alt="png">
+        </div>
+        <p>
+          <i class="fa-solid fa-location-dot me-2"></i>
+          29 SE 2nd Ave, Miami Florida 33131, United States
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope me-2"></i>
+          info@example.com
+        </p>
+        <p class="fw-bold text-light">(+92) 3942 7879</p>
+      </div>
+      <div class="col-lg-2 col-md-6 Shopping">
+        <h6 class="fw-bold">SHOPPING</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Wishlist</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Shop by Brand</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Offers</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Track order</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Size Guide</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 Shopping">
+        <h6 class="fw-bold">INFORMATION</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Track Order</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Shipping & Returns</a></li>
+          <li><a href="#" class="text-white text-decoration-none">About us</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Help</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Gift Cards</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 Shopping">
+        <h6 class="fw-bold">ACCOUNT</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Cart</a></li>
+          <li><a href="#" class="text-white text-decoration-none">My account</a></li>
+          <li><a href="#" class="text-white text-decoration-none">My orders</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Wishlist</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Affiliate Program</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h6 class="fw-bold">Let’s keep in touch</h6>
+        <form class="mb-3 my-5">
+          <div class="input-group" style="background-color: #222; border: 1px solid #555; border-radius: 5px; overflow: hidden;">
+            <input type="email" 
+                   class="form-control border-0 bg-transparent text-white" 
+                   placeholder="Enter your email address">
+            <button class="btn btn-outline-light border-0" type="submit">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </form>
+        <div class="d-flex gap-3 my-5">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <div class="last d-flex justify-content-between align-items-center mt-4">
+      <div class="us">
+        <i class="fa-solid fa-phone"></i> 
+        <span> Didn't find what you were looking for?</span>
+       <p><a href="#">Contact us</a></p>
+      </div>
+      <div class="us">
+        <i class="fa-solid fa-face-smile"></i>
+        <span>How can we help you today?</span>
+       <p><a href="#">Help Center</a></p>
+     </div>
+     <div class="us">
+      <i class="fa-solid fa-comment"></i>
+      <span>We’d love to hear what you think!</span>
+     <p><a href="#">Give Feedback</a></p>
+    </div>
+     </div>
+     <div class="copy d-flex justify-content-between">
+      <p>Copyright © Merto. All Rights Reserved</p>
+      <img src="photo/imgi_289_payment-icons-1-500x51.png" alt="png">
+     </div>
+     
+    </div>
+
+</footer>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="java/owl.carousel.min.js"></script>
+  <script src="java/script.js"></script>
 </body>
 </html>

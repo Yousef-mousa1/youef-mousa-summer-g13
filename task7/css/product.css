@@ -1,0 +1,162 @@
+.singel-sho{
+width: 50px;
+height: 50px;
+border: solid rgba(128, 128, 128, 0.476);
+border-radius: 4px;
+margin-top: 30%;
+}
+.singel-sho img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shoes-img{
+    height: 400px;
+}
+.main-img{
+    border: 1px rgba(87, 96, 106, 0.399) solid;
+    width: 46%;
+    position: relative;
+}
+.main-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-img span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: coral;
+     width: 60px;
+     height: 40px;
+     border-radius: 4px;
+     text-align: center;
+}
+.in-stock{
+    color: rgba(18, 147, 18, 0.659);
+    background-color: rgba(183, 255, 75, 0.846);
+    border-radius: 5px;
+}
+.cashback-banner {
+    background-color: #d6f0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .cashback-text {
+    flex: 1;
+  }
+  
+  .cashback-text h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cashback-text p {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+  
+  .cashback-text a {
+    color: #006400;
+    text-decoration: underline;
+  }
+  
+  .cashback-text button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+   margin-left:60%;
+   margin-bottom: 5%;
+  }
+  
+  .cashback-text button:hover {
+    background-color: #256b29;
+  }
+  
+  .cashback-cards img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    object-fit: cover;
+  }
+  .product-info {
+    margin-top: 30px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+  }
+  
+  .tabs span {
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .tabs .active {
+    border-bottom: 2px solid black;
+  }
+  
+  .content {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .description {
+    flex: 1;
+    min-width: 300px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .details-box {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .details-box table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .details-box td {
+    padding: 12px 8px;
+    vertical-align: top;
+  }
+  
+  .details-box tr:nth-child(odd) {
+    background-color: #e9e9e9;
+  }
+  
+  .details-box tr:nth-child(even) {
+    background-color: inherit;
+  }
+  
+  .details-box strong {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+.product{
+    margin: 5% 0;
+    margin-left: 2%;
+}
