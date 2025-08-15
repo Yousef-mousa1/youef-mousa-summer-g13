@@ -51,3 +51,21 @@ $(document).ready(function(){
   initBlogCarousel();
   $(window).resize(initBlogCarousel);
 });
+let scrollBtn = document.getElementById("scrollTopBtn");
+
+window.onscroll = function () {
+    let scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+    let scrollPercent = (window.scrollY / scrollHeight) * 100;
+    if (scrollPercent > 30) {
+        scrollBtn.style.display = "block";
+    } else {
+        scrollBtn.style.display = "none";
+    }
+};
+
+scrollBtn.onclick = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+};

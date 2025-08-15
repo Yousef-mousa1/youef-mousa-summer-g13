@@ -769,10 +769,28 @@ width: 100%;
   width: 100%;
   background-color: currentColor;
   transform: translateX(-100%);
-  opacity: 1;
+ opacity: 1;
 }
 .underline:hover::after {
   animation: slide-in-out 1s ease forwards;
+}
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; 
+  background-color:teal;
+  color: rgb(189, 188, 188);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s;
+  z-index: 9999;
+}
+#scrollTopBtn:hover {
+  background-color: #555;
 }
 @keyframes slide-in-out {
  0% {
